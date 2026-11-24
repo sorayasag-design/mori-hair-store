@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MORI HAIR | Shampoo Store</title>
+<style>
+:root{--green:#315b45;--sage:#e8eee8;--cream:#faf8f2;--ink:#26332b;--muted:#718078}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Sans Thai",sans-serif;color:var(--ink);background:var(--cream)}
+header{padding:18px 7%;display:flex;justify-content:space-between;align-items:center;background:#fff;border-bottom:1px solid #e8e8e2}
+.brand{font-size:23px;font-weight:800;letter-spacing:3px;color:var(--green)}nav a{color:var(--green);text-decoration:none;margin-left:18px;font-weight:600}
+.hero{padding:64px 7%;background:var(--sage);display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}
+.eyebrow{letter-spacing:2px;color:var(--green);font-size:12px;font-weight:bold}.hero h1{font-size:clamp(34px,5vw,58px);line-height:1.12;margin:12px 0}
+.hero p{color:#52645a;line-height:1.8;max-width:520px}.hero-art{min-height:260px;border-radius:28px;background:linear-gradient(135deg,#dce8dc,#f7f1e5);display:flex;align-items:center;justify-content:center;font-size:76px}
+.btn{display:inline-block;background:var(--green);color:white;text-decoration:none;padding:13px 22px;border-radius:999px;font-weight:bold;margin-top:12px}
+main{max-width:1100px;margin:auto;padding:52px 7%}.section-title{text-align:center;margin-bottom:28px}.section-title p{color:var(--muted)}
+.products{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.product{background:white;border:1px solid #e9e9e2;border-radius:20px;padding:20px}
+.product img{width:100%;height:240px;object-fit:contain;background:#f4f5ef;border-radius:14px}.product h3{margin:16px 0 6px}.desc{color:var(--muted);line-height:1.6;min-height:48px}
+.meta{display:flex;justify-content:space-between;align-items:center;margin-top:14px;gap:10px}.price{font-size:22px;font-weight:800;color:var(--green)}.stock{font-size:13px;color:var(--muted)}
+.notice{text-align:center;color:var(--muted);font-size:13px;margin-top:22px}footer{text-align:center;padding:26px;background:#263b30;color:#fff;font-size:13px}
+@media(max-width:700px){header{padding:16px 5%}.hero{grid-template-columns:1fr;padding:44px 6%}.hero-art{min-height:180px}.products{grid-template-columns:1fr}main{padding:40px 6%}nav a{margin-left:10px;font-size:13px}}
+</style></head>
+<body>
+<header><div class="brand">MORI HAIR</div><nav><a href="#products">สินค้า</a><a href="picking.html">จัดเตรียมคำสั่งซื้อ</a></nav></header>
+<section class="hero"><div><div class="eyebrow">EVERYDAY HAIR CARE</div><h1>ดูแลเส้นผม<br>เริ่มต้นได้ทุกวัน</h1><p>เลือกแชมพูที่เหมาะกับเส้นผมของคุณ ด้วยแชมพู 2 สูตรจาก MORI HAIR</p><a class="btn" href="#products">เลือกชมสินค้า</a></div><div class="hero-art">🧴</div></section>
+<main id="products"><div class="section-title"><h2>OUR PRODUCTS</h2><p>เลือกสูตรที่เหมาะกับการดูแลเส้นผมของคุณ</p></div>
+<div class="products">
+<article class="product"><img src="images/oil-control.jpg" alt="Oil Control Shampoo" onerror="this.style.display='none'"><h3>Oil Control Shampoo</h3><p class="desc">แชมพูสูตรทำความสะอาดเส้นผมและหนังศีรษะ เหมาะสำหรับผู้ที่มีผมมัน</p><div class="meta"><span class="price">฿189</span><span class="stock">SKU: MH001 · สต็อก 50</span></div></article>
+<article class="product"><img src="images/moisture-repair.jpg" alt="Moisture Repair Shampoo" onerror="this.style.display='none'"><h3>Moisture Repair Shampoo</h3><p class="desc">แชมพูสูตรบำรุงเส้นผม ช่วยให้ผมนุ่มลื่นและจัดทรงง่าย</p><div class="meta"><span class="price">฿219</span><span class="stock">SKU: MH002 · สต็อก 40</span></div></article>
+</div><p class="notice">*ข้อมูลสินค้าและสต็อกเป็นข้อมูลตัวอย่างสำหรับโปรเจกต์ สามารถเชื่อม Google Sheets ในขั้นตอนถัดไป</p></main>
+<footer>© 2026 MORI HAIR · Shampoo Online Store</footer></body></html>
